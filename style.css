@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.center-container {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  color: #333;
+  margin: 28px 0 28px 0;
+  color: rgba(17, 17, 17, 1);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  background: var(--btn, linear-gradient(90deg, #b11a1f 0%, #ed2024 100%));
+  box-shadow: 0px 12.317px 27.532px -8.694px rgba(224, 56, 56, 0.54),
+    0px 1.449px 8.694px -7.245px rgba(5, 9, 41, 0.13);
+  border: none;
+  border-radius: 40px;
+  text-decoration: none;
+}
